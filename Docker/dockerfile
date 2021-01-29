@@ -16,6 +16,8 @@ RUN conda install --quiet --yes \
     'moviepy' \
     'openpyxl' \
     'opencv' \
+    'rise' \
+    'jupyter_nbextensions_configurator' \
     'openpyxl' && \
     conda clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
