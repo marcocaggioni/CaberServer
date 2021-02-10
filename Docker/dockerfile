@@ -6,7 +6,7 @@ LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 USER root
 
 RUN apt-get update && \
-    apt-get install -y latexmk \
+    apt-get install -y latexmk
 
 USER $NB_UID
 
